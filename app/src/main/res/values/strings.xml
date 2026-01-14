@@ -1,0 +1,160 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">RayBank</string>
+    <string name="app_title">RayBank - Your Digital Banking Partner</string>
+    
+    <!-- Onboarding -->
+    <string name="onboarding_title_1">Welcome to RayBank</string>
+    <string name="onboarding_desc_1">Secure and convenient banking at your fingertips</string>
+    <string name="onboarding_title_2">Easy Transactions</string>
+    <string name="onboarding_desc_2">Deposit, withdraw and transfer money with just a few taps</string>
+    <string name="onboarding_title_3">Track Your Balance</string>
+    <string name="onboarding_desc_3">Monitor your account balance and transaction history</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="get_started">Get Started</string>
+    
+    <!-- Authentication -->
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="dont_have_account">Don\'t have an account? Sign Up</string>
+    <string name="already_have_account">Already have an account? Sign In</string>
+    <string name="welcome_to_mybank">Welcome to RayBank</string>
+    <string name="enter_credentials">Enter your credentials to continue</string>
+    
+    <!-- Main Activity -->
+    <string name="welcome_back">Welcome back,</string>
+    <string name="total_balance">Total Balance</string>
+    <string name="current_balance">Current Balance</string>
+    <string name="account_number">Account Number</string>
+    <string name="create_account">Create Account</string>
+    <string name="deposit">Deposit</string>
+    <string name="withdraw">Withdraw</string>
+    <string name="transfer">Transfer</string>
+    <string name="scan_qr">Scan QR</string>
+    <string name="view_statement">View Statement</string>
+    <string name="enter_initial_balance">Enter initial balance</string>
+    <string name="enter_amount">Enter amount</string>
+    <string name="copy_account">Copy Account Number</string>
+    <string name="account_copied">Account number copied to clipboard</string>
+    
+    <!-- Transfer -->
+    <string name="transfer_to">Transfer To</string>
+    <string name="recipient_account">Recipient Account Number</string>
+    <string name="transfer_amount">Transfer Amount</string>
+    <string name="transfer_success">Transfer successful</string>
+    <string name="error_invalid_account">Invalid account number</string>
+    <string name="error_same_account">Cannot transfer to same account</string>
+    <string name="transfer_confirmation">Confirm Transfer</string>
+    <string name="transfer_confirm_msg">Transfer %s to account %s?</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Transactions -->
+    <string name="transaction_deposit">Deposit Transaction</string>
+    <string name="transaction_withdraw">Withdrawal Transaction</string>
+    <string name="transaction_transfer_sent">Transfer Sent</string>
+    <string name="transaction_transfer_received">Transfer Received</string>
+    <string name="deposit_success">Deposit successful</string>
+    <string name="withdraw_success">Withdrawal successful</string>
+    <string name="account_created_success">Account created successfully</string>
+    
+    <!-- Profile & Settings -->
+    <string name="profile_settings">Profile Settings</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="account_statement">Account Statement</string>
+    <string name="save_profile">Save Profile</string>
+    <string name="profile_updated">Profile updated successfully</string>
+    <string name="language_english">English</string>
+    <string name="language_malay">Malay</string>
+    <string name="biometric_authentication">Biometric Authentication</string>
+    <string name="logout">Logout</string>
+    <string name="change_profile_picture">Change Profile Picture</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="choose_from_gallery">Choose from Gallery</string>
+    <string name="daily_limit">Daily Transaction Limit</string>
+    <string name="maintenance_mode">Maintenance Mode</string>
+    <string name="account_status">Account Status</string>
+    <string name="active">Active</string>
+    <string name="under_maintenance">Under Maintenance</string>
+    
+    <!-- Errors -->
+    <string name="error_email_empty">Email cannot be empty</string>
+    <string name="error_password_empty">Password cannot be empty</string>
+    <string name="error_name_empty">Name cannot be empty</string>
+    <string name="error_phone_empty">Phone number cannot be empty</string>
+    <string name="error_invalid_email">Invalid email format</string>
+    <string name="error_invalid_credentials">Invalid email or password</string>
+    <string name="error_password_short">Password must be at least 6 characters</string>
+    <string name="error_password_mismatch">Passwords do not match</string>
+    <string name="error_email_exists">Email already exists</string>
+    <string name="error_signup_failed">Sign up failed. Please try again</string>
+    <string name="error_empty_initial_balance">Please enter initial balance</string>
+    <string name="error_negative_initial_balance">Initial balance cannot be negative</string>
+    <string name="error_amount_empty">Please enter an amount</string>
+    <string name="error_negative_amount">Amount must be positive</string>
+    <string name="error_invalid_number">Please enter a valid number</string>
+    <string name="error_insufficient_funds">Insufficient funds</string>
+    <string name="error_invalid_deposit">Invalid deposit amount</string>
+    <string name="error_invalid_withdraw">Invalid withdrawal amount</string>
+    <string name="error_account_not_initialized">Please create account first</string>
+    <string name="error_save_failed">Failed to save. Please try again</string>
+    <string name="error_recipient_empty">Please enter recipient account number</string>
+    <string name="error_daily_limit_exceeded">Daily transaction limit exceeded</string>
+    
+    <!-- Statement -->
+    <string name="balance">Balance</string>
+    <string name="no_transactions">No transactions yet</string>
+    <string name="date">Date</string>
+    
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_statement">Statement</string>
+    <string name="nav_profile">Profile</string>
+    
+    <!-- QR Code -->
+    <string name="scan_qr_code">Scan QR Code</string>
+    <string name="my_qr_code">My QR Code</string>
+    <string name="scan_to_pay">Scan to Pay</string>
+    <string name="show_qr">Show My QR</string>
+    <string name="qr_scan_success">QR Code scanned successfully</string>
+    <string name="qr_scan_failed">Failed to scan QR code</string>
+
+    <!-- Demo Users Info -->
+    <string name="demo_users_info">Demo Users:\nraynold / raynold123\nsiti / siti123\nkumar / kumar123</string>
+
+    <!-- Sign In Extras -->
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="or_continue_with">Or continue with</string>
+    <string name="terms_and_privacy">By signing in, you agree to our Terms and Privacy Policy</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="continue_with_apple">Continue with Apple</string>
+    
+    <!-- Withdraw Extras -->
+    <string name="withdraw_funds">Withdraw Funds</string>
+    <string name="withdrawal_amount">Withdrawal Amount</string>
+    <string name="common_amounts">Common Amounts</string>
+    <string name="withdrawal_method">Withdrawal Method</string>
+    <string name="processing_time">Processing time: Instant</string>
+    <string name="important_notice">Important Notice</string>
+    <string name="withdrawal_fee">Withdrawal Fee</string>
+    <string name="total_withdrawal">Total Withdrawal</string>
+    <string name="available_balance">Available Balance</string>
+    <string name="withdraw_now">Withdraw Now</string>
+    
+    <!-- Transfer Extras -->
+    <string name="transfer_funds">Transfer Funds</string>
+    <string name="recipient_details">Recipient Details</string>
+    <string name="quick_amounts">Quick Amounts</string>
+    <string name="transfer_summary">Transfer Summary</string>
+    <string name="transfer_fee">Transfer Fee</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="transfer_now">Transfer Now</string>
+</resources>

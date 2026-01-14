@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Original Material Colors -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- RayBank Modern Brand Colors -->
+    <color name="primary_blue">#2563EB</color>
+    <color name="primary_blue_dark">#1E40AF</color>
+    <color name="primary_blue_light">#DBEAFE</color>
+    <color name="primary_purple">#7C3AED</color>
+    <color name="primary_purple_dark">#5B21B6</color>
+    
+    <!-- Gradient Colors -->
+    <color name="gradient_start">#667EEA</color>
+    <color name="gradient_end">#764BA2</color>
+    <color name="gradient_blue_start">#4F46E5</color>
+    <color name="gradient_blue_end">#06B6D4</color>
+    
+    <color name="success_green">#10B981</color>
+    <color name="success_green_dark">#059669</color>
+    <color name="success_green_light">#D1FAE5</color>
+    
+    <color name="error_red">#EF4444</color>
+    <color name="error_red_dark">#DC2626</color>
+    <color name="error_red_light">#FEE2E2</color>
+    
+    <color name="warning_orange">#F59E0B</color>
+    <color name="warning_orange_dark">#D97706</color>
+    <color name="warning_amber">#FCD34D</color>
+    
+    <!-- Neutral Colors -->
+    <color name="background_light">#F9FAFB</color>
+    <color name="background_white">#FFFFFF</color>
+    <color name="background_gray">#F3F4F6</color>
+    <color name="text_primary">#111827</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="text_tertiary">#9CA3AF</color>
+    <color name="divider">#E5E7EB</color>
+    
+    <!-- Card & Surface Colors -->
+    <color name="card_background">#FFFFFF</color>
+    <color name="surface_overlay">#F8FAFC</color>
+    <color name="card_shadow">#1F000000</color>
+    
+    <!-- Accent Colors -->
+    <color name="accent_cyan">#06B6D4</color>
+    <color name="accent_pink">#EC4899</color>
+    <color name="accent_indigo">#6366F1</color>
+
+    <!-- Material Design specific colors -->
+    <color name="surface">#FFFFFF</color>
+    <color name="outline_variant">#CAC4D0</color>
+</resources>

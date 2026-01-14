@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RayBank">
+
+        <!-- Splash Screen - Launcher Activity -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.RayBank">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Login Activity (Deprecated/Redundant - kept for safe referencing but disabled from launcher) -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.RayBank" />
+
+        <!-- Onboarding Activity -->
+        <activity
+            android:name=".OnboardingActivity"
+            android:exported="false"
+            android:theme="@style/Theme.RayBank" />
+
+        <!-- Sign In Activity -->
+        <activity
+            android:name=".SignInActivity"
+            android:exported="false"
+            android:theme="@style/Theme.RayBank" />
+
+        <!-- Sign Up Activity -->
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false"
+            android:theme="@style/Theme.RayBank" />
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.RayBank" />
+
+        <!-- Profile Settings Activity -->
+        <activity
+            android:name=".ProfileSettingsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.RayBank"
+            android:parentActivityName=".MainActivity" />
+
+        <!-- Account Statement Activity -->
+        <activity
+            android:name=".AccountStatementActivity"
+            android:exported="false"
+            android:theme="@style/Theme.RayBank"
+            android:parentActivityName=".MainActivity" />
+
+        <!-- Account Settings Activity -->
+        <activity
+            android:name=".AccountSettingsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.RayBank"
+            android:parentActivityName=".MainActivity" />
+
+        <!-- Statement Activity - Transaction History -->
+        <activity
+            android:name=".StatementActivity"
+            android:exported="false"
+            android:theme="@style/Theme.RayBank"
+            android:parentActivityName=".MainActivity" />
+
+        <!-- QR Scanner Activity -->
+        <activity
+            android:name=".QRScannerActivity"
+            android:exported="false"
+            android:theme="@style/Theme.RayBank" />
+    </application>
+
+</manifest>

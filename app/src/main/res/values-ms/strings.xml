@@ -1,0 +1,82 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Akaun Bank</string>
+    <string name="app_title">Sistem Akaun Bank</string>
+    
+    <!-- Onboarding -->
+    <string name="onboarding_title_1">Selamat Datang ke Aplikasi Bank</string>
+    <string name="onboarding_desc_1">Perbankan yang selamat dan mudah di hujung jari anda</string>
+    <string name="onboarding_title_2">Transaksi Mudah</string>
+    <string name="onboarding_desc_2">Masuk dan keluar wang dengan hanya beberapa ketukan</string>
+    <string name="onboarding_title_3">Pantau Baki Anda</string>
+    <string name="onboarding_desc_3">Pantau baki akaun dan sejarah transaksi anda</string>
+    <string name="next">Seterusnya</string>
+    <string name="skip">Langkau</string>
+    <string name="get_started">Mula</string>
+    
+    <!-- Authentication -->
+    <string name="sign_in">Log Masuk</string>
+    <string name="sign_up">Daftar</string>
+    <string name="email">E-mel</string>
+    <string name="password">Kata Laluan</string>
+    <string name="full_name">Nama Penuh</string>
+    <string name="phone_number">Nombor Telefon</string>
+    <string name="confirm_password">Sahkan Kata Laluan</string>
+    <string name="dont_have_account">Tiada akaun? Daftar</string>
+    <string name="already_have_account">Sudah ada akaun? Log Masuk</string>
+    
+    <!-- Main Activity -->
+    <string name="current_balance">Baki Semasa</string>
+    <string name="account_number">Nombor Akaun</string>
+    <string name="create_account">Buat Akaun</string>
+    <string name="deposit">Masuk</string>
+    <string name="withdraw">Keluar</string>
+    <string name="view_statement">Lihat Penyata</string>
+    <string name="enter_initial_balance">Masukkan baki awal</string>
+    <string name="enter_amount">Masukkan jumlah</string>
+    
+    <!-- Transactions -->
+    <string name="transaction_deposit">Transaksi Masuk</string>
+    <string name="transaction_withdraw">Transaksi Keluar</string>
+    <string name="deposit_success">Deposit berjaya</string>
+    <string name="withdraw_success">Pengeluaran berjaya</string>
+    <string name="account_created_success">Akaun berjaya dibuat</string>
+    
+    <!-- Profile & Settings -->
+    <string name="profile_settings">Tetapan Profil</string>
+    <string name="account_settings">Tetapan Akaun</string>
+    <string name="account_statement">Penyata Akaun</string>
+    <string name="save_profile">Simpan Profil</string>
+    <string name="profile_updated">Profil berjaya dikemaskini</string>
+    <string name="language_english">Bahasa Inggeris</string>
+    <string name="language_malay">Bahasa Melayu</string>
+    <string name="biometric_authentication">Pengesahan Biometrik</string>
+    <string name="logout">Log Keluar</string>
+    
+    <!-- Errors -->
+    <string name="error_email_empty">E-mel tidak boleh kosong</string>
+    <string name="error_password_empty">Kata laluan tidak boleh kosong</string>
+    <string name="error_name_empty">Nama tidak boleh kosong</string>
+    <string name="error_phone_empty">Nombor telefon tidak boleh kosong</string>
+    <string name="error_invalid_email">Format e-mel tidak sah</string>
+    <string name="error_invalid_credentials">E-mel atau kata laluan tidak sah</string>
+    <string name="error_password_short">Kata laluan mesti sekurang-kurangnya 6 aksara</string>
+    <string name="error_password_mismatch">Kata laluan tidak sepadan</string>
+    <string name="error_email_exists">E-mel sudah wujud</string>
+    <string name="error_signup_failed">Pendaftaran gagal. Sila cuba lagi</string>
+    <string name="error_empty_initial_balance">Sila masukkan baki awal</string>
+    <string name="error_negative_initial_balance">Baki awal tidak boleh negatif</string>
+    <string name="error_amount_empty">Sila masukkan jumlah</string>
+    <string name="error_negative_amount">Jumlah mesti positif</string>
+    <string name="error_invalid_number">Sila masukkan nombor yang sah</string>
+    <string name="error_insufficient_funds">Baki tidak mencukupi</string>
+    <string name="error_invalid_deposit">Jumlah deposit tidak sah</string>
+    <string name="error_invalid_withdraw">Jumlah pengeluaran tidak sah</string>
+    <string name="error_account_not_initialized">Sila buat akaun terlebih dahulu</string>
+    <string name="error_save_failed">Gagal menyimpan. Sila cuba lagi</string>
+    
+    <!-- Statement -->
+    <string name="balance">Baki</string>
+    <string name="no_transactions">Tiada transaksi lagi</string>
+    <string name="date">Tarikh</string>
+</resources>
